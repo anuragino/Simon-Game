@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Creepster&family=Montserrat&family=Ubuntu&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+.title{
+  font-size: 3.2rem;
+  font-family: 'Bungee', cursive;
+  color: #FEF2BF;
+  text-decoration: underline;
+}
+
+#level-title {
+  /* font-family: 'Press Start 2P', cursive; */
+  font-family: 'Creepster', cursive;
+  letter-spacing: 0.1rem;
+  
+  font-size: 2.6rem;
+  margin:2% 5% 2% 5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 12px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
